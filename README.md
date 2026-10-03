@@ -14,7 +14,7 @@
 
 Câblage en cuivre droit entre R1, le commutateur 2960, le PC-A et le serveur. Câble console du PC-A vers R1.
 
-**Capture : topologie**
+ ![Image Alt](https://github.com/richmondklab/configuration_basique_Routeur/blob/main/partie%201%20topologie.png?raw=true)
 
 
 
