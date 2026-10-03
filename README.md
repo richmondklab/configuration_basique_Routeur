@@ -14,8 +14,7 @@ Activité complète en mode physique de Packet Tracer (PTPM) pour réviser les c
 
 | Appareil | Interface | Adresse IPv4 | Masque | Adresse IPv6 / préfixe | Passerelle par défaut |
 |----------|-----------|--------------|--------|------------------------|-----------------------|
-| R1 | G0/0/0 | `192.168.0.1 /24` | `N/A` | `192.168.0.1 /24` |  	
-fe80::1|
+| R1 | G0/0/0 | `192.168.0.1 /24` | `N/A` | `192.168.0.1 /24` | fe80::1|
 | R1 | G0/0/1 | `<IPv4>` | `<masque>` | `<IPv6>/64` | N/A |
 | R1 | Loopback0 | `<IPv4>` | `<masque>` | `<IPv6>/64` | N/A |
 | PC-A | NIC | `<IPv4>` | `<masque>` | `<IPv6>/64` | `<passerelle>` |
