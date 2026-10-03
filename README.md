@@ -2,7 +2,7 @@
 
 **Objectifs** : câbler la topologie, configurer R1 (sécurité, SSH, interfaces IPv4/IPv6), vérifier la connectivité, puis afficher les informations du routeur avec des commandes `show`.
 
-**Capture : table d'adressage**
+https://github.com/richmondklab/configuration_basique_Routeur/blob/95ecdedf391584609edd8201779b92ecc4d57398/table%20d'addressage.png
 
 
 
