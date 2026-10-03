@@ -10,11 +10,12 @@
 
 Activité complète en mode physique de Packet Tracer (PTPM) pour réviser les commandes IOS. Dans les parties 1 et 2, le matériel est câblé et le routeur reçoit une configuration de base (sécurité, SSH, interfaces). Dans la partie 3, une session SSH sert à récupérer des informations du routeur avec des commandes `show`.
 
-> **Table d'adressage** : remplace les valeurs `<...>` ci-dessous par celles de la table d'adressage de ton énoncé.
+> **Table d'adressage** 
 
 | Appareil | Interface | Adresse IPv4 | Masque | Adresse IPv6 / préfixe | Passerelle par défaut |
 |----------|-----------|--------------|--------|------------------------|-----------------------|
-| R1 | G0/0/0 | `<IPv4>` | `<masque>` | `<IPv6>/64` | N/A |
+| R1 | G0/0/0 | `192.168.0.1 /24` | `N/A` | `192.168.0.1 /24` |  	
+fe80::1|
 | R1 | G0/0/1 | `<IPv4>` | `<masque>` | `<IPv6>/64` | N/A |
 | R1 | Loopback0 | `<IPv4>` | `<masque>` | `<IPv6>/64` | N/A |
 | PC-A | NIC | `<IPv4>` | `<masque>` | `<IPv6>/64` | `<passerelle>` |
