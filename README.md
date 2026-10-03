@@ -30,8 +30,8 @@ Câblage en cuivre droit entre R1, le commutateur 2960, le PC-A et le serveur. C
 
 
 
+![Image Alt](https://github.com/richmondklab/configuration_basique_Routeur/blob/main/Serveur.png?raw=true)
 
-**Capture : IP du serveur**
 
 
 
