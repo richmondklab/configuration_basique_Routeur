@@ -25,7 +25,6 @@ Câblage en cuivre droit entre R1, le commutateur 2960, le PC-A et le serveur. C
 
 ### Ordinateurs
 
-PC-A et Serveur : Desktop > IP Configuration.
 
 ![Image Alt](https://github.com/richmondklab/configuration_basique_Routeur/blob/main/PCA.png?raw=true)
 
