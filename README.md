@@ -93,7 +93,7 @@ R1(config-if)# exit
 R1(config)# interface g0/0/1
 R1(config-if)# description Lien vers PC-A
 R1(config-if)# ip address 192.168.1.1 255.255.255.0
-R1(config-if)# ipv6 address 2001:db8:acad:1::1/64
+R1(config-if)# ipv6 address 2001:db8:acad:1::10/64
 R1(config-if)# ipv6 address fe80::1 link-local
 R1(config-if)# no shutdown
 R1(config-if)# exit
@@ -110,7 +110,7 @@ R1(config-if)# end
 Horloge et sauvegarde :
 
 ```
-R1# clock set <hh:mm:ss> <jour> <mois> <année>
+R1# clock set 
 R1# copy running-config startup-config
 ```
 
@@ -149,7 +149,7 @@ Mot de passe SSH : `55Hadm!n2020`
 
 
 
-**Réponses** : ping : oui / non ; SSH IPv4 : oui / non ; SSH IPv6 : oui / non *(à compléter)*.
+**Réponses** : ping : 
 
 **Risque de Telnet** : les identifiants et les données circulent en clair, donc interceptables ; SSH chiffre la session.
 
@@ -262,8 +262,8 @@ C:\> ping 2001:db8:acad::1
 
 - **Adresse IPv6 du serveur** : préfixe `2001:db8:acad::/64` + identifiant EUI-64 dérivé de la MAC *(à relever sur la capture)*
 - **Passerelle par défaut** : `FE80::1` (link-local de R1)
-- **Ping vers la passerelle** : oui / non *(à compléter ; l'énoncé cite un PC-B absent de la topologie)*
-- **Ping vers `2001:db8:acad::1`** : oui / non *(à compléter)*
+- **Ping vers la passerelle** : o
+- **Ping vers `2001:db8:acad::1`** : 
 
 ---
 
